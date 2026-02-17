@@ -38,7 +38,7 @@
         tax_contribution = 0.00;
     }
 
-    take_home_salary = total_salary - NI_contribution - tax_contribution
+    take_home_salary = total_salary - NI_contribution - tax_contribution;
     
     printf("Salary £%.2f\n",take_home_salary);
 
