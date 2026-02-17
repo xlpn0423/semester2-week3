@@ -20,9 +20,9 @@
     //printf("Take home salary £...",var_name);
       double total_salary = 24000;
 
-      double NI_rate = 8%;
+      double NI_rate = 8.00;
 
-      double tax_rate = 20%;
+      double tax_rate = 20.00;
 
       double NI_contribution;
 
@@ -33,7 +33,7 @@
       NI_contribution = total_salary * (NI_rate / 100.00);
 
       if ((total_salary - NI_contribution - 12500.00) > 0) {
-         tax_contribution = taxable_income * (tax_rate / 100.0);
+         tax_contribution = total_salary - NI_contribution - 12500.00 * (tax_rate / 100.0);
     } else {
         tax_contribution = 0.00;
     }
