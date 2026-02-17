@@ -18,11 +18,11 @@
     //printf("NI contribution £...",var_name);
     //printf("Tax contribution £...",var_name);
     //printf("Take home salary £...",var_name);
-      double total_salary = ;
+      double total_salary = 24000;
 
-      double NI_rate = ;
+      double NI_rate = 8%;
 
-      double tax_rate = ;
+      double tax_rate = 20%;
 
       double NI_contribution;
 
