@@ -3,8 +3,8 @@
 
 /*
  * Potrfolio submission
- * Name:
- * ID:
+ * Name: JieXiang Xu
+ * ID:201956729
  */
 
  int main( void ) {
@@ -18,6 +18,33 @@
     //printf("NI contribution £...",var_name);
     //printf("Tax contribution £...",var_name);
     //printf("Take home salary £...",var_name);
+      double total_salary = ;
+
+      double NI_rate = ;
+
+      double tax_rate = ;
+
+      double NI_contribution;
+
+      double tax_contribution;
+
+      double take_home_salary;
+
+      NI_contribution = total_salary * (NI_rate / 100.00);
+
+      if ((total_salary - NI_contribution - 12500.00) > 0) {
+         tax_contribution = taxable_income * (tax_rate / 100.0);
+    } else {
+        tax_contribution = 0.00;
+    }
+
+    take_home_salary = total_salary - NI_contribution - tax_contribution
+    
+    printf("Salary £%.2f\n",take_home_salary);
+
+    printf("NI contribution £%.2f\n",NI_contribution);
+
+    printf("Take home salary £%.2f\n",take_home_salary);
 
     return 0;
  }
