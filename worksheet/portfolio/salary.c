@@ -20,20 +20,20 @@
     //printf("Take home salary £...",var_name);
       float total_salary = 24000;
 
-      float NI_rate = 8.00;
+      float NI_rate = 0.08;
 
-      float tax_rate = 20.00;
+      float tax_rate = 0.20;
 
-      double NI_contribution;
+      float NI_contribution;
 
-      double tax_contribution;
+      float tax_contribution;
 
-      double take_home_salary;
+      float take_home_salary;
 
-      NI_contribution = total_salary * (NI_rate / 100.00);
+      NI_contribution = total_salary * (NI_rate);
 
       if ((total_salary - NI_contribution - 12500.00) > 0) {
-         tax_contribution = (total_salary - NI_contribution - 12500.00) * (tax_rate / 100.0);
+         tax_contribution = (total_salary - NI_contribution - 12500.00) * (tax_rate);
     } else {
         tax_contribution = 0.00;
     }
